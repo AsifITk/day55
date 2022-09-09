@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Kaisei+Decol:regular,500,700);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kaisei Decol";
+  font-size: 1.2rem;
+  margin: 3px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #9ce9d186;
+}
+
+.slider {
+  width: 400px;
+  height: 4px;
+  background-color: rgba(20, 2, 2, 0.514);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #0f971fd3;
+  position: absolute;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.left {
+  height: 100%;
+  background-color: #60bb5f;
+}
